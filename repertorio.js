@@ -1,15 +1,20 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const cors = require("cors");
+
 const app = express();
 const PORT = 3000;
 
 app.use(express.json());
-
-// Servir archivos estáticos desde la carpeta donde está index.html
-app.use(express.static(path.join(__dirname, "public")));
+app.use(cors());
 
 const filePath = path.join(__dirname, "repertorio.json");
+
+// Servir el archivo index.html
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
 
 // Función para leer el archivo JSON
 const readRepertorio = () => {
