@@ -6,15 +6,15 @@
     "tono": "Em"
   },
   {
-    "id": "2",
-    "titulo": "Labios compartidos",
-    "artista": "Mana",
-    "tono": "Re"
-  },
-  {
-    "id": 3,
+    "id": "3",
     "titulo": "Thunder",
     "artista": "ACDC",
-    "tono": "Hi"
+    "tono": "Mi"
+  },
+  {
+    "id": 6581,
+    "titulo": "De musica ligera",
+    "artista": "Soda Stereo",
+    "tono": "La"
   }
 ]
