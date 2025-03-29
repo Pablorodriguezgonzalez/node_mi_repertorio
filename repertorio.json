@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "titulo": "A Dios le pido",
+    "artista": "Juanes",
+    "tono": "Em"
+  },
+  {
+    "id": "2",
+    "titulo": "Labios compartidos",
+    "artista": "Mana",
+    "tono": "Re"
+  },
+  {
+    "id": 3,
+    "titulo": "Thunder",
+    "artista": "ACDC",
+    "tono": "Hi"
+  }
+]
